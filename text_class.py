@@ -1,16 +1,9 @@
 import streamlit as st
-from PIL import Image
-import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.preprocessing import image
 import pickle
-import seaborn as sns
-import requests
+
 
 
 
@@ -38,3 +31,4 @@ def sentiment_model():
 
 
 sentiment_model()
+
